@@ -4,8 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://rwz.io"
-enforce_ssl: "rwz.io"
+url: "https:rwz-test.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -95,8 +94,8 @@ footer-links-active:
   
 # Select which share links to show in posts
 share-links-active:
-  twitter: false
-  facebook: false
+  twitter: true
+  facebook: true
   google: false
   linkedin: false
 
@@ -153,7 +152,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: true
+      show-avatar: false
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
