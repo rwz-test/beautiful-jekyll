@@ -4,7 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://rwz-test.github.io"
+url: "https://rwz.io"
+enforce_ssl: "rwz.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,41 +15,39 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: rhymes with zion
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: a curation of audio/visual works of art
+
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-
+nav-random: "Random"
 navbar-links:
   About: "about"
   Get Involved: "get-involved"
 nav-contact: "contact"
 nav-search: "search"
-nav-random: "Random"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-
+avatar: "/img/rwz-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
+
+navbar-img: "/img/reverse-triangles.png"
+footer-img: "/img/dark-triangle.png"
 
 # --- Background colour/image options --- #
 
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-# navbar-col: "orange"
-# navbar-img: "/img/bgimage.png"
-# footer-col: "blue"
-# footer-img: "/img/bgimage.png"
-# page-col: "#FF0000"
-# page-img: "/img/bgimage.png"
+
 
 # --- Footer options --- #
 
@@ -93,10 +92,11 @@ footer-links-active:
   spotify: false
   telephone: false
   soundcloud: true
+  
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
   linkedin: false
 
@@ -109,6 +109,7 @@ url-pretty: "rwz.io"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "rwz"
 
 # Fill in your Google Analytics ID to track your website using GA
+
 google_analytics: "UA-99989285-1"
 
 # Google Tag Manager ID
@@ -131,8 +132,8 @@ title-separator: "|"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+permalink: /:title/
+paginate: 7
 
 kramdown:
   input: GFM
@@ -220,7 +221,7 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-plugins:
+gems:
   - jekyll-paginate
 
 # Beautiful Jekyll / Dean Attali
