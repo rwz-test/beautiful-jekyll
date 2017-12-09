@@ -1,262 +1,180 @@
-# Beautiful Jekyll
+<p align="center"><img src="img/rwz-small-logo.png"></p>
+<h1 align="center">Rhymes with Zion</h1>
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
-[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
+* [Introduction](#introduction)
+   * [Purpose](#purpose)
+   * [Who is it for?](#who-is-it-for)
+   * [What Rhymes with Zion isn't](#what-rhymes-with-zion-isnt)
+* [About ](#about)
+   * [Our Ethos](#our-ethos)
+   * [Weekly Schedule](#importing-vcards-cli-only)
+   * [FAQs](#frequently-asked-questions)
+* [Get Involved](#get-involved)
+   * [How to get Involved](#how-to-get-involved)
+   * [Curate](#curate)
+   * [Feedback](#feedback)
+   * [Submissions](#submissions)
+   * [Posting Template](#posting-template)
+   * [Other ways to Support](#statistics)
+* [Contact](#contact)
+   * [How to get in touch](#how-to-get-in-touch)
+   * [Connect accross the web](#connect-accross-the-web)
+* [Credits](#credits)
+* [License](#license)
 
-> *Copyright 2016 [Dean Attali](http://deanattali.com)*
+## Introduction
 
-**Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.  [Check out a demo](http://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can also look at [my personal website](http://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](#showcased-users-success-stories).
+If we consider a 'work of art' a creation from the infinite potential of nature into a finite actuality which unveils a cultural worldview (e.g. Ancient Greek culture using stones to represent their myths through statues, or certain Indigenous cultures of North America using trees to create Totem Poles which tell a narrative), then audio-visual creations portrayed through a digital medium is the epitome of a contemporary work of art.
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/daattali/20) for developing and maintaining this template.**
+The goal of Rhymes with Zion is to present these audio-visual works of art through a digital medium, think of it like an online art gallery which has been curated by collaborators on the internet. Everything done to create rhymes with zion is done through an internet connection. In other words Rhymes with Zion is built, designed, and managed completely through a web-browser.
 
-<p align="center">
-  <a href="https://www.paypal.me/daattali">
-    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
-  </a>
-</p>
+### Purpose
 
-### Table of contents
+Rhymes with zion provides a digital place for the curation of audio-visual works of art. It is a collaborative project which aims to share audio-visual works of art. Every work of art being showcased is shared for the sake of itself, presenting it as intrinsically valuable and not just a means to an end.
 
-- [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#build-your-website-in-3-steps)
-- [Add your own content](#add-your-own-content)
-- [Last important thing: YAML front matter ("parameters" for a page)](#last-important-thing-yaml-front-matter-parameters-for-a-page)
-- [Features](#features)
-- [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
-- [Showcased users (success stories!)](#showcased-users-success-stories)
-- [Advanced: local development](#advanced-local-development-using-docker)
-- [FAQ](#faq)
-- [Credits and contributions](#credits)
+### Who is it for?
 
-## Prerequisites
+This website remains as inclusive as possible and tries it's best to be accessible to anyone with access to the internet. Whether you are a passive viewer exploring the web looking for cool and interesting content to surf through, or actively engaged wanting to [get involved](#get-involved)
 
-- You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `http://johnsmith.github.io`.  
-- It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](http://markdowntutorial.com/).
+### What rhymes with zion isn't
 
-## Build your website in 3 steps
+Rhymes with Zion is unfortunately not the place to find out what rhymes with zion. Luckily, there are <a href="http://lmgtfy.com/?q=rhymes+with+zion" target="_blank">plenty of websites</a> which provide that service. It also, is not on the front-page of google (as you may have seen if you clicked that link above). 
 
-Getting started is *literally* as easy as 1-2-3 :smile:   
-Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps.
+Rhymes with Zion is not a website for self-promotion. Although it encourages contribution through the [curation](#curate) and [individual submissions](#submissions) of their favourite audio-visual works of art, it is not a place for artists to share their own work. By sharing the work of others, you can indirectly promote yourself through your [contributor's page](http://www.rwz.io/contributors/test). That does not mean the audio-visual works of art created by contributors can't be shared on the site, it just has to be curated by another contributor who did not help create it.
 
-![Installation steps](img/install-steps.gif)
+Rhymes with Zion is not commercially driven in any way. It does not have a profit motive, and therefore it is not a place where you will see any form of advertisement or marketing campaigns. There is no space for sponsored content or promotional posts. Every work of art being showcased is shared for the sake of itself, presenting it as intrinsically valuable and not just a means to an end. 
 
-### 1. Fork this repository
+## About
 
-(Assuming you are on this page and logged into GitHub) Fork this repository by clicking the *Fork* button on the top right corner. Forking means that you now copied this whole project and all the files into your account.
+The internet has changed the way we see and connect with the world, others, and ourselves. It has enabled digital media to become a ubiquitous throughout society. Rhymes with zion provides a place within cyberspace which curates audio-visual works of art that provides perspective of different cultural worldviews, connects you with a variety of artists and others, and presents these works of art as an intrinsic value in itself to enable the viewer to reflect on their experience. 
 
-### 2. Rename the repository to `<yourusername>.github.io`
+### Our Ethos
 
-This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at `http://<yourusername>.github.io` within a couple minutes.  To do this, click on *Settings* at the top (the cog icon) and there you'll have an option to rename.
+Rhymes with Zion strives to provide an environment which embraces inclusivity and being agile in the way it operates. What makes Rhymes with Zion different than other projects, is our embodiment of these three core values that are embedded within the entire philosophy of the project. 
 
-### 3. Customize your website settings
+#### Openness
 
-Edit the `_config.yml` file to change all the settings to reflect your site. To edit the file, click on it and then click on the pencil icon (watch the video tutorial above if you're confused).  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further. Any line that begins with a pound sign (`#`) is a comment, and the rest of the lines are actual settings.
+Whether it is open source software or being open to different cultural worldviews through presenting a diverse tapestry of art, rhymes with zion embraces an ethos of openness. All the code is accessible on a public repository and it is made available for others to use with an MIT license. The project does not limit itself to a particular genre or style of audio-visual works of art through the recognition that art opens up a perception of cultural worldviews, and therefore the more variety of art made available on rhymes with zion the better it is for openning oneself up to different ways to see the world. 
 
-Another way to edit the config file (or any other file) is to use [prose.io](http://prose.io/), which is just a simple interface to allow you to more intuitively edit files or add new files to your project.
+#### Collaboration
 
-After you save your changes to the config file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `http://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so.
+T
 
-You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages. Your website is at `http://<yourusername>.github.io` (replace `<yourusername>` with your user name). Do not add `www` to the URL - it will not work!
+#### Continuous Improvement
 
-**Note:** The video above goes through the setup for a user with username `daattalitest`. I only edited one setting in the `_config.yml` file in the video, but **you should actually go through the rest of the settings as well. Don't be lazy, go through all the settings :)**
+We recognize that Rhymes with Zion will never be perfect, and will not necessarily meet the needs of all it’s users all the time but there is always room for improvement. The website has been developed in an agile way, and it [takes the feedback of it’s users](#feedback) to constantly strive to improve the product. 
 
-## Add your own content
+### Weekly Schedule
 
-To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file directly.  It is much easier to write markdown than HTML, so I suggest you do that (use the [tutorial I mentioned above](http://markdowntutorial.com/) if you need to learn markdown). You can look at some files on this site to get an idea of how to write markdown. To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the pencil icon to edit the file, you will see the markdown that generated the pretty text. Very easy!
+The website tries to keep some consistency by posting one audio/visual work of art a day. To find our more, <a href="http://www.rwz.io/weekly-sched/" target="_blank">vist the webpage<a/>.
 
-In contrast, look at [`index.html`](./index.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
+### Frequently Asked Questions
 
-Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.  After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
+Lots of questions have been asked and will be asked about the project, and the most frequently asked questions need to be collated and presented on the website. Currently there are not enough questions being repetitively asked, so if you have any questions than  
 
-As mentioned previously, you can use [prose.io](http://prose.io/) to add or edit files instead of doing it directly on GitHub, it can be a little easier that way.
+## Get Involved
 
-## Last important thing: YAML front matter ("parameters" for a page)
+Interested in being more than just a passive viewer and want to actively get involved. Great! There are plenty of ways in which you can help contribute to this collaborative and open project.
 
-In order to have your new pages use this template and not just be plain pages, you need to add [YAML front matter](http://jekyllrb.com/docs/frontmatter/) to the top of each page. This is where you'll give each page some parameters that I made available, such as a title and subtitle. I'll go into more detail about what parameters are available later. If you don't want to use any parameters on your new page (this also means having no title), then use the empty YAML front matter:
+### How to get involved
 
-```
----
----
-```
+This website is built openly and is inclusive to all, enabling many ways for you to get involved. Whether you are an art-lover, creative, developer, or designer, rhymes with zion is an inclusive space for collaboration. The main way to get involved is to contribute, whether it be providing content by becoming a [curator](#curate) or [individual submissions](#submissions). If you are not interested in contributing content, you can still get involved through providing [feedback](#feedback) which will help continuously improve your experience. If generating content or feedback forms are not your thing but you still want to get involved, there are plenty [other ways to support](#other-ways-to-support).
 
-If you want to use any parameters, write them between the two lines. For example, you can have this at the top of a page:
+### Curate
 
-```
----
-title: Contact me
-subtitle: Here you'll find all the ways to get in touch with me
----
-```
+This website embraces openness and collaboration, the best way to provide an inclusive environment with diverse works of art being displayed within a digital place is through other people curating it. If you are interested in curating, please follow the instructions on the <a href="https://docs.google.com/document/d/1u7PoI3MD21fb0GxSsZyfxVKJhmEE8eP3cbyBOWyufss" target="_blank">template</a>.
 
-You can look at the top of [`aboutme.md`](./aboutme.md) or [`index.html`](./index.html) as more examples.
+When curating you are free to create your own theme or vibe. You will need to have 7 posts for a week (follow the post template but feel free to get creative). Curators will also have a contributor webpage which requires; a bio writte-up / photo / relevant links - [example page](http://www.rwz.io/contributors/test/).
 
-**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**    
-If you don't include YAML then your file will not use the template.
+If you are interested in becoming a contributor and curate rhymes with zion's audio-visual art gallery which dwells in cyberspace but want to know a bit more about it before you begin filling out the <a href="https://docs.google.com/document/d/1u7PoI3MD21fb0GxSsZyfxVKJhmEE8eP3cbyBOWyufss" target="_blank">template</a>, please don't hesitate to email: contact@rwz.io 
 
-## Features
+### Feedback
 
-### Mobile-first
-**Beautiful Jekyll** is designed to look great on both large-screen and small-screen (mobile) devices. Load up your site on your phone or your gigantic iMac, and the site will work well on both, though it will look slightly different.
+We strive for continuous improvement of the website and the ideas behind it.. Whether you think the build, content, design, scope, or just overall user experience of rhymes with zion can be improved, we would love to hear your <a href="http://rwz.io/feedback" target="_blank">feedback</a>. 
 
-### Customizable
+### Submissions
 
-Many personalization settings in `_config.yml`, such as setting your name and site's description, changing the background colour/image, setting your avatar to add a little image in the navigation bar, customizing the links in the menus, customizing what social media links to show in the footer, etc.
+There are plenty of days left in 2017 (both backtracking and moving forward) that need a post sharing an audio-visual work of art to fill its empty void. If you have a posting idea than please fill out the <a href="http://www.rwz.io/submissions" target="_blank">submission form</a> on the website. 
 
-### Allowing users to leave comments
+### Other ways to support
 
-If you want to enable comments on your site, Beautiful Jekyll supports the [Disqus](https://disqus.com/) comments plugin.  To use it, simply sign up to Disqus and add your Disqus shortname to the `disqus` parameter in the `_config.yml`.
+As mentioned [above](#what-rhymes-with-zion-isnt) rhymes with zion is not commercially driven and there is no profits being earned from the website. That being said, there still is a cost for rhymes with zion to be able to sustain and monetary support enables this sustainability. If you like what we are doing but are not interested in actively getting involved, consider a one-off financial support through [monzo.me](http://bit.ly/2uNi1tj) or [kofi](http://ko-fi.com/rwzion)
 
-If the `disqus` parameter is set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
 
-### Adding Google Analytics to track page views
+If you are not interested in contributing your time or money to the website but still enjoy it, there are plenty of other ways which you can support rhymes with zion:
 
-Beautiful Jekyll lets you easily add Google Analytics to all your pages. This will let you track all sorts of information about visits to your website, such as how many times each page is viewed and where (geographically) your users come from.  To add Google Analytics, simply sign up to [Google Analytics](http://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `google_analytics` parameter in `_config.yml`.
+* Share it with others, tell people how awesome this website is (and if you don't think it is awesome tell us how we can improve)
+* [Connect with us across the web](#connect-across-the-web)
 
-### Sharing blog posts on social media
+## Contact
 
-By default, all blog posts will have buttons at the bottom of the post to allow people to share the current page on Twitter/Facebook/LinkedIn.  You can choose to enable/disable specific social media websites in the `_config.yml` file. You can also turn off the social media buttons on specific blog posts using `social-share: false` in the YAML front matter.
+Rhymes with zion aims to be as open, collaborative, and constantly striving for further improvement as possible. That means, we are always happy to hear from you for any reason, so please do not hestiate to [get in touch](#how-to-get-in-touch) and don't forget to [connect with rhymeswithzion across the interwebs](#connect-across-the-web)
 
-### RSS feed
+### How to get in touch
 
-Beautiful Jekyll automatically generates a simple RSS feed of your blog posts, to allow others to subscribe to your posts.  If you want to add a link to your RSS feed in the footer of every page, find the `rss: false` line in `_config.yml` and change it to `rss: true`.
+If you would like to curate, complete the <a href="https://docs.google.com/document/d/1u7PoI3MD21fb0GxSsZyfxVKJhmEE8eP3cbyBOWyufss" target="_blank">curator's template</a> and send it to <a href="mailto:rhymeswithzion@gmail.com" target="_blank">rhymeswithzion [at] gmail.com</a> with 'Curate' as the subject line. 
 
-### Page types
+Stand-alone submissions - complete the <a href="https://rwz.io/submissions" target="_blank">submission form</a>
 
-- **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
-- **page** - Any page outside the `_posts` folder that uses YAML front matter will have a very similar style to blog posts.
-- **minimal** - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal` to the YAML front matter.
-- If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
+Feedback - please fill out the <a href="https://rwz.io/feedback" target="_blank">feedback form</a>
 
-### YAML front matter parameters
+Any other enquiries use the <a href="https://rwz.io/contact" target="_blank">contact form</a> 
 
-These are the main parameters you can place inside a page's YAML front matter that **Beautiful Jekyll** supports.
+### Connect across the web
 
-Parameter   | Description
------------ | -----------
-title       | Page or blog post title
-subtitle    | Short description of page or blog post that goes under the title
-bigimg      | Include a large full-width image at the top of the page.  You can either give the path to a single image, or provide a list of images to cycle through (see [my personal website](http://deanattali.com/) as an example).
-comments    | If you want do add Disqus comments to a specific page, use `comments: true`. Comments are automatically enabled on blog posts; to turn comments off for a specific post, use `comments: false`. Comments only work if you set your Disqus id in the `_config.yml` file.
-show-avatar | If you have an avatar configured in the `_config.yml` but you want to turn it off on a specific page, use `show-avatar: false`. If you want to turn it off by default, locate the line `show-avatar: true` in the file `_config.yml` and change the `true` to `false`; then you can selectively turn it on in specific pages using `show-avatar: true`.
-image       | If you want to add a personalized image to your blog post that will show up next to the post's excerpt and on the post itself, use `image: /path/to/img`.
-share-img   | If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
-social-share | If you don't want to show buttons to share a blog post on social media, use `social-share: false` (this feature is turned on by default).
-use-site-title | If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use `use-site-title: true`. When set, the document title will take the format `Site Title - Site Description` (eg. `My website - A virtual proof that name is awesome!`). By default, it will use `Page Title` if it exists, or `Site Title` otherwise.
-layout      | What type of page this is (default is `blog` for blog posts and `page` for other pages. You can use `minimal` if you don't want a header and footer)  
-js          | List of local JavaScript files to include in the page (eg. `/js/mypage.js`)
-ext-js      | List of external JavaScript files to include in the page (eg. `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) can be specified using the `href` and `sri` parameters eg.<br/>`href: "//code.jquery.com/jquery-3.1.1.min.js"`<br/>`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
-css         | List of local CSS files to include in the page
-ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported. 
-googlefonts | List of Google fonts to include in the page (eg. `["Monoton", "Lobster"]`)
-gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
-gh-badge  | Select which GitHub buttons to display, available options are: [star, watch, fork, follow]. You must also use the `gh-repo` parameter to specify the GitHub repo.
+*  <a href="https://facebook.com/rhymeswithzion" target="_blank">Facebook</a>
 
-### Advanced features (including how to use a custom URL address for your site)
+*  <a href="https://github.com/rhymeswithzion" target="_blank">Github</a>
 
-I wrote [a blog post](http://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that are applicable to any Jekyll site.  It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed.
+*  <a href="https://instagram.com/rhymeswithzion" target="_blank">Instagram</a>
 
-## Creating a User Page vs a Project Page
+*  <a href="https://soundcloud.com/rhymeswithzion" target="_blank">Soundcloud</a>
 
-If you're not sure what the difference is, you can probably safely ignore this section.
+*  <a href="https://twitter.com/rhymeswithzion" target="_blank">Twitter</a>
 
-If you want to use this theme to host a website that will be available at `https://YOURUSERNAME.github.io`, then you do not need to read this section. That is called a User Page, you can only have one User Page in your GitHub account, and it is what you get by default when forking this project.
-
-If you want to use this theme to create a website for a particular repository, it will be available at `https://YOURUSERNAME.github.io/REPONAME`, and that is called a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/). You can have a Project Page for each repository you have on GitHub. There are two important things to note when creating a project page:
-
-1. In the configuration file (`_config.yml`), you should set `baseurl` to be `/projectname` instead of `""`.
-2. Project Pages are served from a branch named `gh-pages`, and you should be generating all the website content on that branch. When you fork Beautiful Jekyll, you'll already have a `gh-pages` branch but you should delete it and generate it again from the `master` branch. The reason is that the `gh-pages` branch in its current form does not have the updated code of Beautiful Jekyll, so you need to create that branch from the `master` branch (which is where all my new features and work go into).
-
-## Showcased users (success stories!)
-
-To my huge surprise, Beautiful Jekyll has been used in over 500 websites in its first 6 months alone! Here is a hand-picked selection of some websites that use Beautiful Jekyll.
-
-Want your website featured here? [Contact me](http://deanattali.com/aboutme#contact) to let me know about your website.
-
-### Project/company websites
-
-| Website | Description |
-| :------ |:----------- |
-| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
-| [bigdata.juju.solutions](http://bigdata.juju.solutions) | Creating Big Data solutions Juju Solutions |
-| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
-| [deanattali.com/shinyjs](http://deanattali.com/shinyjs/) | shinyjs - an R package |
-| [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
-| [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
-| [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
-| [PatientOutcomeFunding.org](http://www.patientoutcomefunding.org/) | Patient Outcome Funding |
-| [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
-| [fightthecube.com](http://fightthecube.com/) | Fight The Cube (personal finance education) |
-
-### Personal websites
-
-| Website | Who | What |
-| :------ |:--- | :--- |
-| [deanattali.com](http://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
-| [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
-| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
-| [melyanna.github.io](http://melyanna.github.io/) | Melyanna | Shows off her nice art |
-| [chauff.github.io](http://chauff.github.io/) | Claudia Hauff | Professor at Delft University of Technology |
-| [kootenpv.github.io](http://kootenpv.github.io/) | Pascal van Kooten | Data analytics |
-| [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
-| [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
-| [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
-| [ocram85.github.io](https://ocram85.github.io) | Marco Blessing | A personal blog about PowerShell and automation |
-
-
-## Advanced: Local development using Docker
-
-Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps to do that with Docker:
-
-1. Make sure that you have Docker installed on your local environment. Installation instructions can be found [here](https://docs.docker.com/engine/installation/)
-2. Clone your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-3. Inside your repository folder, run:
-
-    ```
-    docker run -p 4000:4000 -v `pwd`:/app mangar/jekyll:1.1 bash -c "bundle install; bundle exec jekyll serve"
-    ```
-    Note you may need to add `--host 0.0.0.0` after `bundle exec jekyll serve` to get the site to server correctly.
-4. View your website at <http://localhost:4000>.
-
-Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!		
-  		  
-Aditionally, if you choose to deploy Jekyll using a local ruby installation, you can tell Jekyll to automatically categorize your blog posts by tags. You just need to set `link-tags: true` in `_config.yml`. Jekyll will then generate a new page for each unique tag which lists all of the posts that belong to that tag.
-
-## FAQ
-
-Beautiful Jekyll is actively used by thousands of people with wildly varying degrees of competency, so it's impossible to answer all the questions that may arise. Below are answers to a few very common questions. Most questions that I get asked are not directly related to this theme, and instead are more general questions about Jekyll or web development. Many such questions can be answered by reading the [Jekyll documentation](http://jekyllrb.com/) or simply by Googling.
-
-#### How do I change the number of posts per page OR the colour of the navigation bar OR the image in the navigation bar OR ...?
-
-Beautiful Jekyll is built to be very customizable, and as such, many questions about "how do I change ..." can be answered by looking at the `_config.yml` file. The configuration file has many adjustable parameters to customize your site.
-
-#### How do I add a favicon to my site?
-
-Easy! Just place a valid `favicon.ico` (or another valid favicon image) in the root directory of your project. And then wait! It can take a while to update.
-
-#### How do I move the blog to another page instead of having it on the home page?
-
-The default style of Beautiful Jekyll is to feature the blog feed on the front page. But for many sites that's not the ideal structure, and you may want to have a separate dedicated page for the blog posts. To have the blog hosted on a different URL (for example at `<mysite.com>/blog`), copy the `index.html` file into a folder with the same name as the desired page (for example, to `blog/index.html`), and in the `_config.yml` file you need to add a parameter `paginate_path: "/<page name>/page:num/"` (for example `paginate_path: "/blog/page:num/"`).
-
-#### What size do you recommend using for the `bigimg` photos?
-
-Unfortunately, this is a no-answer! There isn't a one-size-fits-all solution to this, because every person will view your site on a different browser with different dimensions. Some browsers will have very wide aspect ratio, some will be narrower, some will be vertical (such as phones), different phones have different screens, etc. The image will always be centered, so the only tip I can give is that you should make sure the important part of the image is in the middle so that it'll always show. Other than that, every browser will show a different clipping of the image.
+*  <a href="https://github.com/rhymeswithzion" target="_blank">Youtube</a>
 
 ## Credits
 
-This template was not made entirely from scratch. I would like to give special thanks to:
-- [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now), from whom I've taken several ideas and code snippets, as well as some documenation tips.
-- [Iron Summit Media](https://github.com/IronSummitMedia) and their project [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from which I've used some design ideas and some of the templating code for posts and pagination.
+Thank you to all the great people / products / services that have enabled rhymes with zion to be open, collaborative, and continuously improve. 
 
-I'd also like to thank [Dr. Jekyll's Themes](http://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+There are plenty of platforms to build a website with user-friendly and intuitive interfaces that enable people with little to no coding skills. Many of these platforms have costs for hosting, templates, and content management systems that can add up to become quite expensive for running a website. Although there are completely free platforms, they usually have limitation when in comes to design and features.
 
-## Contributions
+That being said, there are free and/or open source options that have been utilized to meet the needs of this website.
 
-If you find anything wrong or would like to contribute in any way, feel free to create a pull request/open an issue/send me a message.  Any comments are welcome!
+Rhymes with Zion is built, designed, and managed completely on a web-browser, the only expenditure was on the domain name. Here are some of the digital products and tools which have enabled rhymes with zion to exist in its current form:
 
-Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer), [@XNerv](https://github.com/XNerv), [@epwalsh](https://github.com/epwalsh), [@rtlee9](https://github.com/rtlee9), [@OCram85](https://github.com/OCram85).
+*  <a href="https://github.com/daattali/beautiful-jekyll" target="_blank">Beautiful Jekyll</a> template by <a href="http://deanattali.com" target="_blank">Dean Attali</a> who provides a brilliant <a href="http://deanattali.com" target="_blank">read-me</a> which guides you how to set-up your own website just like this one within seconds.
 
-If you do fork or clone this project to use as a template for your site, I would appreciate if you keep the link in the footer to this project.  I've noticed that several people who forked this repo removed the attribution and I would prefer to get the recognition if you do use this :)
+*  <a href="https://disqus.com/" target="_blank">Disqus</a> provides the commenting feature for posts on the website.
 
-## Known limitations
+*  <a href="https://formspree.io/" target="_blank">Formspree.io</a> is a great tool for functional HTML forms which has been used for the contact, feedback, and submissions pages on the website
 
-- If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+* <a href="https://codepen.io/matmarsiglio/pen/HLIor" target="_blank">Minimalistic Form</a> a simple and beautiful contact form designed by Matheus Marsiglio. It was easily modified for the contact, feedback, and submission pages on the website.  
+
+*  <a href="https://pages.github.com/" target="_blank">Github Pages</a> provides free web-hosting of the wbsite.
+
+* <a href="https://www.google.com/intl/en/about/products/" target="_blank">Google Products</a> 
+    *  <a href="https://www.google.com/analytics/" target="_blank">Analytics</a> - has been set-up to collect data about website traffic and audience of the users. 
+    *  <a href="https://www.chromium.org/chromium-os" target="_blank">Chrome OS</a> is the operating system which this website was created, the design, deployment, and management of content is all done on a chromebook. It provides the best experience for creating this project, which is produced online completely through a webbrowser.  
+    *  <a href="https://gsuite.google.com/together/" target="_blank">G Suite</a> has been extremely useful for the admin side of the calender. Google's office suite which has been integral to the development and maintenance of the website. This includes (but not limited to): Calendar, Drive, Docs, Forms, and of course Gmail.
+    *  <a href="https://developers.google.com/custom-search/" target="_blank">Search</a> has been used for the search function on the website. Google custom search enables a search feature in the website powered by unbeatable google algorithms. 
+*  <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> static-website generator, enables you to build directly from a github repository. This website is built with Jekyll.
+
+*  <a href="https://ko-fi.com" target="_blank">Kofi</a> is a free tool that allows user to support the website.
+
+* <a href="https://monzo.me/" target="_blank">Monzo.Me</a> is another way to provide monetary support. Monzo is an awesome bank of the future, and they do not have any transaction fees. 
+
+*  <a href="https://namcheap.com/" target="_blank">NameCheap</a> - provided domain name registration at at the most reasonable price. It also provides email forwarding.
+
+* <a href="https://pixlr.com" target="_blank">Pixlr Editor</a> is a web application which the logo was created and images are formated. 
+
+* <a href="http://prose.io" target="_blank">Prose.io</a> Content management system that provides a user-friendly interface for writing in markdown. This read-me document, as well as all the other pages and posts on the website were written and published through github using <a href="http://prose.io" target="_blank">prose</a>.
+
+Of course credit must be given to everyone involved, including but not limited to: those who have and will contribute to the website, those who have and will provide feedback, those who have supported and will support the website, and those who enjoy and use the website. The sustainable growth and longevity of our existence depends on people like you, so thanks. 
+
+## License
+
+Copyright (c) 2017 Rhymes with Zion
+
+Licensed under the [MIT License](https://github.com/rhymeswithzion/rhymeswithzion.github.io/blob/master/LICENSE)
